@@ -1,16 +1,23 @@
 {
-  "name": "nodejs-prisma-mymoney-api",
+  "name": "nodejs-clean-arch-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "aluiziodeveloper@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "20.2.3",
+    "@typescript-eslint/eslint-plugin": "5.59.7",
+    "@typescript-eslint/parser": "5.59.7",
+    "eslint": "8.41.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.8",
     "tsup": "6.7.0",
     "tsx": "3.12.7",
     "typescript": "5.0.4"
